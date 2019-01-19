@@ -1,4 +1,4 @@
-def intersection(list1, list2) 
+def intersection(list1, list2):
   # Finding the intersection of two sorted lists
   if list1 or list2:
     return null
