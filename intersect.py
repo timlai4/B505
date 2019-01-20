@@ -11,6 +11,4 @@ def intersection(list1, list2):
       if element < list2[N//2]:
         intersection([element],list2[:N//2])          
   return intersect
-list1=[1,2,3]
-list2=[1,2,3]
-print(intersection(list1,list2))
+
