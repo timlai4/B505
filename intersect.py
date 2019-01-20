@@ -7,8 +7,7 @@ def intersection(list1, list2):
       if element == list2[N//2]:
         intersect.append(element)
       if element > list2[N//2]:
-        intersection([element],list2[N//2-1:])
+        intersection([element],list2[N//2+1:])
       if element < list2[N//2]:
         intersection([element],list2[:N//2])          
   return intersect
-
